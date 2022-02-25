@@ -176,3 +176,33 @@ section {
 .about {
   letter-spacing: 2px;
 }
+
+.to-top {
+  background: white;
+  font-size: 30px;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f1f1f;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+.to-top.activ {
+  bottom: 32px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.to-top:hover {
+  background-color: #6125eecc;
+  color: white;
+}
