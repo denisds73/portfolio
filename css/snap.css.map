@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,WAAW;EAC7B,UAAU,EAAE,MAAM;CACnB;;AAED,AAAA,OAAO,CAAC;EACN,iBAAiB,EAAE,KAAK;CACzB",
+    "sources": [
+        "snap.scss"
+    ],
+    "names": [],
+    "file": "snap.css"
+}
